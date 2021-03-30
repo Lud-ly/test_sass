@@ -1,0 +1,26 @@
+body {
+  background-color: #121212;
+}
+
+h1 {
+  color: #ff4DEA;
+}
+
+p {
+  color: #ebeb0d;
+}
+
+ul {
+  list-style: none;
+}
+
+ul:hover {
+  background-color: #351708;
+}
+
+ul li {
+  color: #ff4DEA;
+  font-size: 35px;
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */

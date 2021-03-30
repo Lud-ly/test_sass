@@ -1,0 +1,27 @@
+$main-color:rgb(235, 235, 13);
+$second-color:#ff4DEA;
+$color-random:rgb(random(255), random(255), random(255));
+$bg-color:#121212;
+$ma_size:35px;
+
+body{
+    background-color:$bg-color;
+}
+h1{
+    color: $second-color;
+}
+p{
+    color: $main-color;
+
+}
+ul{
+    list-style: none;
+    &:hover{
+        background-color: $color-random;
+    }
+    li{
+        color: $second-color;
+        font-size: $ma_size;
+        display: inline-block;
+    }
+}
