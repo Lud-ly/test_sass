@@ -1,72 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test_Sass</title>
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="liquid.css">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test_Sass</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="liquid.css">
+  <script src="main.js"></script>
 </head>
+
 <body>
-    <div>
-        <a href="#" class="btn-liquid">
-            <span class="inner">Liquid button ?</span>
-        </a> 
+  <div class="container">
+    <a href="http://marcel-pirnay.be/" class="wBtn">
+      <svg width="277" height="62">
+        <defs>
+          <linearGradient id="grad1">
+            <stop offset="0%" stop-color="#FF8282" />
+            <stop offset="100%" stop-color="#E178ED" />
+          </linearGradient>
+        </defs>
+        <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
+      </svg>
+      <!--<span>Voir mes réalisations</span>-->
+      <span>Welcome in my world</span>
+    </a>
+
+    <div class="button-container-1">
+      <span class="mas">MASK1</span>
+      <button id='work' type="button" name="Hover">MASK1</button>
     </div>
-    <br>
-    <div class="liquid">
-        <h1>MON CSS_SASS </h1>
-        <p>premier pas sass  </p>
-        <button> view effect </button>
+
+    <div class="button-container-2">
+      <span class="mas">MASK2</span>
+      <button type="button" name="Hover">MASK2</button>
     </div>
 
-<!-- Flex Container -->
-<div id="container">
+    <div class="button-container-3">
+      <span class="mas">MASK3</span>
+      <button type="button" name="Hover">MASK3</button>
+    </div>
+  <div class="liquid">
+    <button class="btn draw-border"> view effect </button>
+  </div>
+   </div>
+  <div>
+    <a href="#" class="btn-liquid">
+      <span class="inner">Liquid button ?</span>
+    </a>
+  </div>
+  <br>
 
-  <a id="button-1" class="button" href="#">Let's Go!<img id="arrow-hover" src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-paper-plane-1-120.png?raw=true"/></a>
+  <!-- Flex Container -->
+  <div id="container">
 
-  <div class="button" id="button-2">
-    <div id="slide"></div>
-    <a href="#">Let's Go!</a>
+    <a id="button-1" class="button" href="#">Let's Go!<img id="arrow-hover"
+        src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-paper-plane-1-120.png?raw=true" /></a>
+
+    <div class="button" id="button-2">
+      <div id="slide"></div>
+      <a href="#">Let's Go!</a>
+    </div>
+
+    <div class="button" id="button-3">
+      <div id="circle"></div>
+      <a href="#">Let's Go!</a>
+    </div>
+
+    <div class="button" id="button-4">
+      <div id="underline"></div>
+      <a href="#">Let's Go!</a>
+    </div>
+
+    <div class="button" id="button-5">
+      <div id="translate"></div>
+      <a href="#">Let's Go!</a>
+    </div>
+
+    <div class="button" id="button-6">
+      <div id="spin"></div>
+      <a href="#">Let's Go!</a>
+    </div>
+
+    <div class="button" id="button-7">
+      <div id="dub-arrow"><img
+          src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true"
+          alt="" /></div>
+      <a href="#">Let's Go!</a>
+    </div>
+
+
+    <!-- End Container -->
   </div>
 
-  <div class="button" id="button-3">
-    <div id="circle"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-4">
-    <div id="underline"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-5">
-    <div id="translate"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-6">
-    <div id="spin"></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-  <div class="button" id="button-7">
-    <div id="dub-arrow"><img src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true" alt="" /></div>
-    <a href="#">Let's Go!</a>
-  </div>
-
-
-  <!-- End Container -->
-</div>
-
-<div class="treat-wrapper">
+  <div class="treat-wrapper">
     <button class="treat-button">Treats!</button>
   </div>
-  
-  <a href="#" target="_blank" data-keyframers-credit style="color: #FFF"></a>
+  <a href="https://youtu.be/8HJU-rQerQ8" target="_blank" data-keyframers-credit style="color: #FFF"></a>
+
 </body>
+
 </html>
